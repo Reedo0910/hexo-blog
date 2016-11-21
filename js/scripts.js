@@ -114,10 +114,10 @@ $(document).ready(function($) {
 		}
 
 		// autohide navbar on scroll
-		$("div.navbar-fixed-top").autoHidingNavbar({
+		/*$("div.navbar-fixed-top").autoHidingNavbar({
 			animationDuration: 400,
 			hideOffset: 0,
-		});
+		});*/
 
 		// faq's floating sidebar (left)
 	    $('#sidebar').affix({
