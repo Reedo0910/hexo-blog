@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>新Velas Camp:第一次使用Vue.js | Velas Talk</title>
+  <title>2016-5-25 星期三 | Velas Talk</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -205,50 +205,46 @@
         <div class="row col-md-offset-2">
             <div class="col-md-8">
     			<span class="post-meta">
-      <time datetime="2016-11-20T09:59:33.000Z" itemprop="datePublished">
-          2016-11-20
+      <time datetime="2016-05-24T16:00:00.000Z" itemprop="datePublished">
+          2016-05-25
       </time>
     
     
     | 
+    <a href='/tags/公告/'>公告</a>,
+    
     <a href='/tags/前端心得/'>前端心得</a>
     
     
 </span>
-                <h1>新Velas Camp:第一次使用Vue.js</h1>
+                <h1>2016-5-25 星期三</h1>
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-      		<p><img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/VelasCamp.jpg" alt="新Velas Camp"></p>
-<p>本来在我在短期之内还是与大规模使用Vue.js无缘的，把<a href="http://www.velascamp.cn" target="_blank" rel="external">Velas Camp</a>设计翻新也只是因为之前的设计不太直观（而且流量损耗和加载开销都很大）。而且还干脆小小的尝试了一下Web App形态。</p>
-<a id="more"></a>
-<p>但是必须要指责一下苹果，一声不吭的就把Web App的启动屏幕api移除了！（据说是bug，但是至今也没恢复），结果白白设计了个启动屏幕，却毫无用武之地。但是想了想，即使没有这个api我也能弄启动屏幕呀（然后又要指责一下苹果，为啥Web App打开都会白屏一段时间，而且根本不会帮你缓存），但是为了不浪费非iPhone6/6s/7（不含plus）用户的流量，于是最后在衡量了开销之后决定，还是用Vue.js来解决一下节点处理问题。</p>
-<p>即使只是用了v-if/v-show和bind……</p>
-<p>最后弄好了是这个样子的。</p>
-<p><img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/startup.png" alt="startup screen"></p>
-<p>只在iPhone 6/6s/7(不含plus)将网页添加主屏幕之后可见。</p>
-<p>虽然感觉目前Web App不是SPA的话没什么用，因为打开其他页面也会跳转到浏览器打开的。但是不管怎么说，虽然很耗时，还是有点小成就感的。（还隐藏了一句Android 5+的标题颜色代码，但是没测试）</p>
-<hr>
-<p>列一下meta代码（第6行为iOS开始屏幕设置，目前在iOS9+不可用）</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-capable"</span> <span class="attr">content</span>=<span class="string">"yes"</span> /&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-status-bar-style"</span> <span class="attr">content</span>=<span class="string">"black-translucent"</span> /&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-title"</span> <span class="attr">content</span>=<span class="string">"Velas Camp"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"apple-touch-icon-precomposed"</span> <span class="attr">sizes</span>=<span class="string">"180x180"</span> <span class="attr">href</span>=<span class="string">"retinahd_icon.png"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">"apple-touch-startup-image.png"</span> <span class="attr">media</span>=<span class="string">"(device-width: 375px) and (device-height:667px)and (-webkit-device-pixel-ratio: 2)"</span> <span class="attr">rel</span>=<span class="string">"apple-touch-startup-image"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"theme-color"</span> <span class="attr">content</span>=<span class="string">"#3b4aff"</span>&gt;</span></div></pre></td></tr></table></figure>
+      		<p>今天！原来怎么都点不开的<strong>关于</strong>改名为新板块<strong>Talk</strong>上线啦，也就是说导航栏现在所有链接都可用了！强迫症患者看我多爱你们 <img src="http://o7a3i0m1t.bkt.clouddn.com/image/emo/xiao.png" alt="淫笑"></p>
+<p>以后所有的<del>吐槽和段子（误）</del>学习笔记终于有地方写了 <img src="http://o7a3i0m1t.bkt.clouddn.com/image/emo/hezhang.png" alt="合掌"></p>
+<p>其实每次最怕就是开新版面，因为一开版面就要想怎么设计，脑袋都大了……如果有个设计师帮忙设计多好，我是说不用包吃包住那种 <img src="http://o7a3i0m1t.bkt.clouddn.com/image/emo/tao.jpg" alt="逃"></p>
+<p>今天翻了翻更新日志，发现好久都没写过东西了。其实从某种意义上说，这个网站每天都有在更新的，只是都在实验室那边弄Javascript而已。每天改动都很大的，所以也懒得写日志了。不得不说Javascript真是一门很好的编程语言（主要是合我口味）。但是不得不说前端要走的路还有很长很长，冰封三尺非一日之寒。BTW，也顺路推销一下<em>Javascript DOM编程艺术</em>，它对JS入门来说真是一本不可多得的好书。</p>
+<p>好啦，今天先写那么多。自从接触上JS就觉得做看得到的东西比看不到的东西简单（误），但是感觉每天都能学到新东西，真开心。 <img src="http://o7a3i0m1t.bkt.clouddn.com/image/emo/huanhu.png" alt="欢呼"></p>
+<p><em>另：记第一次用Markdown写东西（误）</em></p>
+<blockquote>
+<p>提示：由于博客迁移，该功能已被移除，这篇博客所指的效果可在 <a href="http://velas.xyz/talk.html" target="_blank" rel="external">Velas’s Talk,每日碎碎念</a> 中查看。</p>
+</blockquote>
+
             <div class="clearfix"></div>
             <hr class="nogutter">
         </div>
         <nav class="pagination" role="pagination">
     
-    <a class="pull-left" href="/2016/12/31/Bye2016,Hello2017/" style="float: left;">
-        ← Bye 2016, Hello 2017
+    <a class="pull-left" href="/2016-05-25-Markdown是个好东西！ 2016-5-25.html" style="float: left;">
+        ← Markdown是个好东西！
     </a>
     
-    
-    <a class="pull-right" href="/2016/10/09/啊呀，好想剁手/">
-        啊呀，好想剁手 →
-    </a>
     
 </nav>
 
         <div class="duoshuo">
-<div class="ds-thread" data-thread-key="2016/11/20/新VelasCamp-第一次使用Vuejs/" data-title="新Velas Camp:第一次使用Vue.js" data-url="https://reedo0910.github.io/2016/11/20/新VelasCamp-第一次使用Vuejs/"></div>
+<div class="ds-thread" data-thread-key="2016-05-25-2016-5-25.html" data-title="2016-5-25 星期三" data-url="https://reedo0910.github.io/2016-05-25-2016-5-25.html"></div>
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"velastalk"};
 (function() {
