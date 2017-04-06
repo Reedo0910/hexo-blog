@@ -559,6 +559,7 @@ nav i.icon-basic-eye {
 }
 .navbar-inner {
 	background-color: rgba(255,255,255,.6);
+    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
 	-webkit-transition: background-color 400ms linear;
 	-moz-transition: background-color 400ms linear;
@@ -581,7 +582,6 @@ nav i.icon-basic-eye {
 .navbar-inner.lightnav-alt {
 	background-color: #fff;
     background-color: rgba(255,255,255,.9);
-    -webkit-backdrop-filter: blur(5px);
 }
 @media (max-width: 1024px) {
 	.navbar-inner.lightnav-alt {
@@ -724,6 +724,7 @@ button.navbar-toggle .icon-bar {
 .sb-slidebar {
 	background-color: rgba(21, 21, 21, 0.95);
 	color: #666;
+    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
 	font-weight: 700;
 	font-size: 14px;
