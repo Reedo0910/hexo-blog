@@ -47,15 +47,15 @@
     <![endif]-->
 
     <!-- Google Webfonts (Monserrat 400/700, Open Sans 400/600) -->
-    <link href='//fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.useso.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <!--<link href='//fonts.useso.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>-->
+    <!--<link href='//fonts.useso.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>-->
 
     <!-- Load our fonts individually if IE8+, to avoid faux bold & italic rendering -->
     <!--[if IE]>
-    <link href='http://fonts.useso.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.useso.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.useso.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.useso.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <!--<link href='http://fonts.useso.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>-->
+    <!--<link href='http://fonts.useso.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>-->
+    <!--<link href='http://fonts.useso.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>-->
+    <!--<link href='http://fonts.useso.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>-->
     <![endif]-->
 
     <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
@@ -105,17 +105,6 @@
             <li><a href="/archives" class="animsition-link" title="archive">文章列表</a></li>
             <!-- Dropdown Menu -->
 			 
-            <li>
-                <a class="sb-toggle-submenu">作品<span class="sb-caret"></span></a>
-                <ul class="sb-submenu">
-                    
-                        <li><a href="http://www.velas.xyz/" target="_BLANK" class="animsition-link">Velas</a></li>
-                    
-                        <li><a href="http://www.velascamp.cn/" target="_BLANK" class="animsition-link">Velas Camp</a></li>
-                    
-                </ul>
-            </li>
-            
             
         	<li>
         		<a class="sb-toggle-submenu">目录<span class="sb-caret"></span></a>
@@ -129,21 +118,11 @@
         	</li>
 			
             
-            <li>
-                <a class="sb-toggle-submenu">友情链接<span class="sb-caret"></span></a>
-                <ul class="sb-submenu">
-                    
-                    <li><a href="http://photopin.com/" class="animsition-link">PhotoPin</a></li>
-                    
-                    <li><a href="http://es6.ruanyifeng.com/" class="animsition-link">ECMAScript 6入门</a></li>
-                    
-                </ul>
-            </li>
-            
         </ul>
         <!-- Lists in Slidebars -->
         <ul class="sb-menu secondary">
             <li><a href="/about.html" class="animsition-link" title="about">关于Zeee</a></li>
+            <li><a href="http://www.velas.xyz/" class="animsition-link" title="velas.xyz">回到Velas.xyz</a></li>
         </ul>
     </div>
     
@@ -162,15 +141,14 @@
                     <!-- Nav logo -->
                     <div class="logo">
                         <a href="/" title="Logo" class="animsition-link">
-                         <img src="/img/VelasLogo.png" alt="Logo" width="50px;"/> 
+                         <img src="/img/VelasLogo.png" alt="Logo" width="100px;"/> 
                         </a>
                     </div>
                     <!-- // Nav logo -->
                     <!-- Info-bar -->
                     <nav>
                         <ul class="nav">
-                            <li><a href="/" class="animsition-link">Velas Talk</a></li>
-                            <li class="nolink"><span>每日碎碎念。</span></li>
+                            <li class="nolink"><span>Life is glamorous.</span></li>
                             
                             <li><a href="https://github.com/Reedo0910" title="Github" target="_blank"><i class="icon-github"></i></a></li>
                             
@@ -180,6 +158,7 @@
                             
                             <li><a href="http://weibo.com/reedo" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
                             
+                            <li><a href="http://www.velas.xyz/" class="animsition-link"><i class="icon-heart"></i>回到Velas.xyz</a></li>
                         </ul>
                     </nav>
                     <!--// Info-bar -->
@@ -202,19 +181,13 @@
       <!-- ============================ Hero Image =========================== -->
 
 <section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(http://o7a3i0m1t.bkt.clouddn.com/image/blog/background/My%20Start%20Wallpapers%205612775569.jpg) no-repeat center center fixed;background-size: cover">
+    <div class="container-fluid element-img" style="background: url(/img/background.jpg) no-repeat center center fixed;background-size: cover">
         <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost">
                 <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
                     <div>
-                        
-                        <h2></h2>
-                        <p></p>
-                        
-                        <h2></h2>
-                        <p></p>
-                        
-
+                        <h2>Velas Talk</h2>
+                        <p>Life is <span>glamorous</span>.</p>
                     </div>
                 </div>
             </div>
@@ -479,7 +452,7 @@
         var hero = $(".cover,.heightblock"),
             window1 = $(window);
         hero.css({
-            "height": window1.height()
+            "height": window1.height()/1.7
         });
     };
     
