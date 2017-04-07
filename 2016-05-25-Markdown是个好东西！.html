@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>奇怪的移动端 | Velas Talk</title>
+  <title>Markdown是个好东西！ | Velas Talk</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -184,58 +184,55 @@
         <div class="row col-md-offset-2">
             <div class="col-md-8">
     			<span class="post-meta">
-      <time datetime="2016-05-25T16:00:00.000Z" itemprop="datePublished">
-          2016-05-26
+      <time datetime="2016-05-25T01:00:00.000Z" itemprop="datePublished">
+          2016-05-25
       </time>
     
     
     | 
     <a href='/tags/前端心得/'>前端心得</a>,
     
-    <a href='/tags/移动端适配/'>移动端适配</a>
+    <a href='/tags/Markdown/'>Markdown</a>
     
     
 </span>
-                <h1>奇怪的移动端</h1>
+                <h1>Markdown是个好东西！</h1>
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-      		<p>今天做了几件奇奇怪怪的事，其实不过是上课的时候开的脑洞而已——想把首页的背景固定，然后把filter: blur引到首页文本背景做个毛玻璃效果，这样就能有ios 7那种动态高斯模糊的效果了……想想都有点美 <img src="http://o7a3i0m1t.bkt.clouddn.com/image/emo/zilian.png" alt="自恋"></p>
-<p>然而……并没有做出来 </p>
+      		<p>借着Talk上线这个契机，我试了一下Markdown。因为想了想，觉得用HTML来写长文那画面有点太美。查了一些资料都在说<a href="http://www.typora.io/" target="_blank" rel="external"><strong>Typora</strong></a><em>（我挺喜欢他的首页的）</em>不错，所以也就用上了（主要是VS Code自带的Markdown不会用）。没想到刚刚将Markdown代码转换成HTML的时候，我的神经被冲击了一下。</p>
 <a id="more"></a>
-<p>发现filter: blur原理是将整个div，包括里面的文字内容都给模糊了，而且并不能控制只是模糊背景图片，<strong>只能在背景的上面加一个div块，将背景继承给他再进行模糊</strong>……更不能忍的就是……模糊了之后还将边缘也一起模糊了</p>
-<p>大概效果是这样：</p>
-<p><img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss4.PNG" alt="filter:blur失败"></p>
-<p><strong>EXCUSE ME????</strong></p>
-<p>算了，既然弄不了毛玻璃的话弄个透明也好，毕竟背景固定了之后文本背景加透明也挺萌的（好吧自我安慰）。</p>
-<p>当我以为“今天的工作也大概到这里了吧”，准备开开心心玩儿去的时候，我无意中用手机打开……画风是这样的……</p>
-<p> <img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss5.png" alt="移动端不适配"></p>
-<p><strong>嗯？</strong></p>
-<p>查了一下才知道<strong>移动端对background-attachment支持并不好</strong>，在size那里调了半天发现怎么都不太对。好咯，视觉效果优先，那只能移除咯……但是又舍不得pc那个视觉冲击力……然后狠下心，去研究了一下怎么用JS来针对移动端选择CSS。最后通过另外写一套mobile的CSS（顺便调了一下排版），再通过JS判断替换CSS文件，终于解决了……</p>
-<p> <img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss6.png" alt="适配成功"></p>
-<p>还是很大快人心的……</p>
-<p>但是如果以后要专门针对移动端适配的话……那不是每个页面都要写两套CSS？话说木有iPad的话那怎么做iPad上的测试？<img src="http://o7a3i0m1t.bkt.clouddn.com/image/emo/han.png" alt="汗"></p>
-<p><em>另：明天开始动工收起按钮和留言板</em></p>
-<p><em>好像图片库好久没理了吧</em></p>
+<p><strong>在Markdown上看的代码是这样的：</strong></p>
+<p> <img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss1.PNG" alt="markdown"></p>
+<p>还是挺直观的吧……</p>
+<p><strong>变成HTML之后是这样的：</strong></p>
+<p> <img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss2.PNG" alt="html"></p>
+<p>……如果保留了CSS，你看到的将会是这样的：</p>
+<p> <img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss3.PNG" alt="CSS"></p>
+<p>注意左边的行号……</p>
+<p><strong>EXCUSE  ME????</strong></p>
+<p>瞬间没了写东西的欲望好吗……</p>
+<p>所以说即使在HTML繁荣发展的今天，Markdown的存在还是合理的……</p>
+<p><em>另：Typora也是个好东西</em> <img src="http://o7a3i0m1t.bkt.clouddn.com/image/emo/aixin.png" alt="爱心"></p>
 
             <div class="clearfix"></div>
             <hr class="nogutter">
         </div>
         <nav class="pagination" role="pagination">
     
-    <a class="pull-left" href="/2016-05-29-WebGL!-WebGL! 2016-5-29.html" style="float: left;">
-        ← WebGL! WebGL!
+    <a class="pull-left" href="/2016-05-26-奇怪的移动端.html" style="float: left;">
+        ← 奇怪的移动端
     </a>
     
     
-    <a class="pull-right" href="/2016-05-25-Markdown是个好东西！ 2016-5-25.html">
-        Markdown是个好东西！ →
+    <a class="pull-right" href="/2016-05-25-2016-5-25.html">
+        2016-5-25 星期三 →
     </a>
     
 </nav>
 
         <div class="duoshuo">
-<div class="ds-thread" data-thread-key="2016-05-26-奇怪的移动端-2016-5-26.html" data-title="奇怪的移动端" data-url="https://reedo0910.github.io/2016-05-26-奇怪的移动端-2016-5-26.html"></div>
+<div class="ds-thread" data-thread-key="2016-05-25-Markdown是个好东西！.html" data-title="Markdown是个好东西！" data-url="https://reedo0910.github.io/2016-05-25-Markdown是个好东西！.html"></div>
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"velastalk"};
 (function() {

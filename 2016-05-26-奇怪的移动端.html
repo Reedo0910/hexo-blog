@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>WebGL! WebGL! | Velas Talk</title>
+  <title>奇怪的移动端 | Velas Talk</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -184,68 +184,58 @@
         <div class="row col-md-offset-2">
             <div class="col-md-8">
     			<span class="post-meta">
-      <time datetime="2016-05-28T16:00:00.000Z" itemprop="datePublished">
-          2016-05-29
+      <time datetime="2016-05-25T16:00:00.000Z" itemprop="datePublished">
+          2016-05-26
       </time>
     
     
     | 
     <a href='/tags/前端心得/'>前端心得</a>,
     
-    <a href='/tags/WebGL/'>WebGL</a>
+    <a href='/tags/移动端适配/'>移动端适配</a>
     
     
 </span>
-                <h1>WebGL! WebGL!</h1>
+                <h1>奇怪的移动端</h1>
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-      		<p>前几天上游戏编程的时候听老师提了一下WebGL这个东西，大概就是利用JavaScript和OpenGL的一种3D绘图标准，可以用来弄含有3D元素的页面，甚至是3D网页游戏等等等等。而且现在绝大多数浏览器也已经支持这个标准了。<br>然后昨天我查了一下这个东西到底有多玄乎，结果又把我的三观刷新了一次。<br>在我印象中，提起网页游戏，我第一反应：不就是4399嘛 <img src="http://o7a3i0m1t.bkt.clouddn.com/image/emo/piezui.png" alt="撇嘴"><br>大不了就是这样<br> <img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/webgame.jpg" alt="webgame"></p>
-<p><strong>但是WebGL做的东西画风是这样的：</strong><br><a id="more"></a><br> <a href="http://helloracer.com/webgl/" target="_blank" rel="external"><img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss8.png" alt="HelloRacer"></a>                        </p>
-<p><strong>HelloRacer</strong> </p>
-<ul>
-<li>方向键或WASD键控制赛车</li>
-<li>回车键切换视角</li>
-<li>空格键刹车</li>
-</ul>
-<p><a href="http://helloracer.com/webgl/" target="_blank" rel="external">点击查看HelloRacer Demo</a></p>
-<p><a href="http://alteredqualia.com/three/examples/materials_cars.html" target="_blank" rel="external"><img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss9.png" alt="Materials Cars"></a>                  </p>
-<p><strong>Materials Cars</strong></p>
-<p> <a href="http://alteredqualia.com/three/examples/materials_cars.html" target="_blank" rel="external">点击查看Materials Cars Demo</a></p>
-<p> <a href="http://madebyevan.com/webgl-water/" target="_blank" rel="external"><img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss7.png" alt="WebGL Water"></a></p>
-<p><strong>WebGL Water</strong>               </p>
-<ul>
-<li>拖动小球或点击水面形成水波</li>
-<li>拖动黑色空白区域改变视角</li>
-<li>G键切换有/无重力影响</li>
-<li>L键切换灯光（光源方向基于视角位置）</li>
-<li>空格键暂停</li>
-</ul>
-<p><a href="http://madebyevan.com/webgl-water/" target="_blank" rel="external">点击查看WebGL Water Demo</a></p>
-<p><em>更多WebGL实例 开源中国：15 个可在 Chrome 浏览器上体验 WebGL 的例子</em></p>
-<p><strong>简直就是美轮美奂好吗！</strong>听到显卡风扇呼呼转的时候真的好兴奋啊 <img src="http://o7a3i0m1t.bkt.clouddn.com/image/emo/haixiu.png" alt="害羞"></p>
-<p>然后又查了一下，现在很多的WebGL Demo都用了一个叫做Three.js的Javascript库，因为如果单纯调用WebGL的话代码量是十分恐怖的。</p>
-<p><em>另：等我把JS弄懂了之后真想搞搞这个，过过我的游戏开发瘾 <img src="http://o7a3i0m1t.bkt.clouddn.com/image/emo/zilian.png" alt="自恋"></em></p>
-<p><em>但是这货运行效率好像不太高（误），玩了一下显卡风扇转的好离谱，还有些卡……</em></p>
+      		<p>今天做了几件奇奇怪怪的事，其实不过是上课的时候开的脑洞而已——想把首页的背景固定，然后把filter: blur引到首页文本背景做个毛玻璃效果，这样就能有ios 7那种动态高斯模糊的效果了……想想都有点美 <img src="http://o7a3i0m1t.bkt.clouddn.com/image/emo/zilian.png" alt="自恋"></p>
+<p>然而……并没有做出来 </p>
+<a id="more"></a>
+<p>发现filter: blur原理是将整个div，包括里面的文字内容都给模糊了，而且并不能控制只是模糊背景图片，<strong>只能在背景的上面加一个div块，将背景继承给他再进行模糊</strong>……更不能忍的就是……模糊了之后还将边缘也一起模糊了</p>
+<p>大概效果是这样：</p>
+<p><img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss4.PNG" alt="filter:blur失败"></p>
+<p><strong>EXCUSE ME????</strong></p>
+<p>算了，既然弄不了毛玻璃的话弄个透明也好，毕竟背景固定了之后文本背景加透明也挺萌的（好吧自我安慰）。</p>
+<p>当我以为“今天的工作也大概到这里了吧”，准备开开心心玩儿去的时候，我无意中用手机打开……画风是这样的……</p>
+<p> <img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss5.png" alt="移动端不适配"></p>
+<p><strong>嗯？</strong></p>
+<p>查了一下才知道<strong>移动端对background-attachment支持并不好</strong>，在size那里调了半天发现怎么都不太对。好咯，视觉效果优先，那只能移除咯……但是又舍不得pc那个视觉冲击力……然后狠下心，去研究了一下怎么用JS来针对移动端选择CSS。最后通过另外写一套mobile的CSS（顺便调了一下排版），再通过JS判断替换CSS文件，终于解决了……</p>
+<p> <img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss6.png" alt="适配成功"></p>
+<p>还是很大快人心的……</p>
+<p>但是如果以后要专门针对移动端适配的话……那不是每个页面都要写两套CSS？话说木有iPad的话那怎么做iPad上的测试？<img src="http://o7a3i0m1t.bkt.clouddn.com/image/emo/han.png" alt="汗"></p>
+<p><em>另：明天开始动工收起按钮和留言板</em></p>
+<p><em>好像图片库好久没理了吧</em></p>
 
             <div class="clearfix"></div>
             <hr class="nogutter">
         </div>
         <nav class="pagination" role="pagination">
     
-    <a class="pull-left" href="/2016-05-29-（误）这访问量是什么鬼.html" style="float: left;">
-        ← 这访问量是什么鬼
+    <a class="pull-left" href="/2016-05-29-WebGL!-WebGL! .html" style="float: left;">
+        ← WebGL! WebGL!
     </a>
     
     
-    <a class="pull-right" href="/2016-05-26-奇怪的移动端-2016-5-26.html">
-        奇怪的移动端 →
+    <a class="pull-right" href="/2016-05-25-Markdown是个好东西！.html">
+        Markdown是个好东西！ →
     </a>
     
 </nav>
 
         <div class="duoshuo">
-<div class="ds-thread" data-thread-key="2016-05-29-WebGL!-WebGL! 2016-5-29.html" data-title="WebGL! WebGL!" data-url="https://reedo0910.github.io/2016-05-29-WebGL!-WebGL! 2016-5-29.html"></div>
+<div class="ds-thread" data-thread-key="2016-05-26-奇怪的移动端.html" data-title="奇怪的移动端" data-url="https://reedo0910.github.io/2016-05-26-奇怪的移动端.html"></div>
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"velastalk"};
 (function() {
