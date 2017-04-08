@@ -4,7 +4,7 @@
 
 # Site
 title: Velas Talk
-subtitle: 每日碎碎念
+subtitle: Life is glamorous.
 description: Zeee的博客
 author: Zeee
 language: zh-Hans
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://reedo0910.github.io/
+url: http://blog.velas.xyz/
 root: /
 permalink: :year-:month-:day-:title.html
 permalink_defaults:
