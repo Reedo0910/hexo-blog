@@ -43,3 +43,18 @@ a.toc-link:hover::after {
     padding-left: 1em;
     color: #bbb;
 }
+
+.totop {
+    position: fixed;
+    bottom: 10%;
+    right: 4%;
+    cursor: pointer;
+}
+
+.totop img {
+    width: 35px;
+}
+
+#totop:hover {
+    opacity: 1 !important;
+}
