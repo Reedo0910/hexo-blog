@@ -3485,8 +3485,9 @@ footer .footer_bottom {
 
 .toc {
     padding: 0;
-    margin: 1em;
+    margin: 1em 1em 1em 2em;
     line-height: 2.4em;
+    font-size: 1.1em;
 }
 
 .toc li {
