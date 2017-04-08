@@ -1,0 +1,28 @@
+<% permalink = config.url + config.root + post.path %>
+<section id="intro">
+    <div class="container">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<%- partial('post/meta') %>
+                <h1><%- post.title %></h1>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <!-- Table of Contents -->
+        <% if (post.toc){ %>
+            <div id="toc" class="toc-article">
+                <strong class="toc-title">目录</strong>
+                <%- toc(post.content, {list_number: false}) %>
+            </div>
+        <% } %>
+      		<%- post.content %>
+            <div class="clearfix"></div>
+            <hr class="nogutter">
+        </div>
+        <%- partial('post/navigation') %>
+        <div class="duoshuo"><%- partial('post/duoshuo') %></div>
+    </div>
+    <div id="totop" class="totop">
+        <a title="返回顶部"><img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/icon/scrolltop.png" /></a>
+    </div>
+</section>

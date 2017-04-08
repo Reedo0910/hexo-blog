@@ -1,0 +1,50 @@
+# config
+cover: http://o7a3i0m1t.bkt.clouddn.com/image/blog/background-image/background.jpg
+logo: /img/VelasLogo.png
+
+title: Velas Talk
+content: Life is <span>glamorous</span>.
+bottom_saying: 春は夜桜 夏には星 秋に満月 冬には雪。
+# Content
+excerpt_link: 阅读全文
+
+rss: /atom.xml
+
+highlightjs: vs
+
+#Works
+# works:
+# - works_name: Velas
+#   works_url: http://www.velas.xyz/
+# - works_name: Velas Camp
+#   works_url: http://www.velascamp.cn/
+
+#duoshuo name
+duoshuo: velastalk
+
+# Miscellaneous
+github: https://github.com/Reedo0910
+weibo: http://weibo.com/reedo
+#twitter: https://twitter.com/
+#facebook: https://www.facebook.com/
+#google: https://google.com/
+
+#about  timeline
+timeline:
+- num: 1
+  word: 2016/05/03-Velas.xyz建站
+- num: 2
+  word: 2016/05/25-Velas's Talk页面完工，并发布了第一篇博文
+- num: 3
+  word: 2016/08/22-Velas Camp建站，真正在前端的大海中扬帆起航
+- num: 4
+  word: 2016/09/16-Velas's Talk更名Velas Talk基于Hexo重构，真正成为一个博客网站
+- num: 5
+  word: 2016 ~ -更多精彩将在此诞生
+
+#Links
+# links:
+# - name: 
+#   link: 
+# - name: 
+#   link: 
