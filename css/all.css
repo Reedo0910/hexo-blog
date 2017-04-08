@@ -3507,17 +3507,26 @@ a.toc-link:hover::after {
 
 .totop {
     position: fixed;
-    bottom: 10%;
     right: 4%;
     cursor: pointer;
 }
 
-.totop img {
+.totop a {
+    display: block;
+    background-color: #fff;
     width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    text-align: center;
+    box-shadow: #888 0 1px 1px;
 }
 
-#totop:hover {
-    opacity: 1 !important;
+.totop a:hover {
+    background-color: #ddd;
+}
+
+.totop img {
+    width: 20px;
 }
 .entry .gist {
   background: #eee;

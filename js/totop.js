@@ -9,17 +9,15 @@
     // Scroll to top speed
     var scrollSpeed = 450;
 
-    // Show and hide the scroll to top link based on scroll position
-    scrollElem.hide();
+    // // Show and hide the scroll to top link based on scroll position
+    // scrollElem.hide();
 
     function isElemShow() {
         var scrollTop = $(document).scrollTop();
         if (scrollTop > upperLimit) {
-            $(scrollElem).css("visibility", "visible");
-            $(scrollElem).stop().fadeTo(100, 0.5); // fade back in
+            $(scrollElem).stop().animate({bottom:'50px'});
         } else {
-            $(scrollElem).stop().fadeTo(100, 0); // fade out
-            $(scrollElem).css("visibility", "hidden");
+            $(scrollElem).stop().animate({bottom:'-100px'});
         }
     }
     isElemShow();
