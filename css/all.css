@@ -3496,6 +3496,7 @@ footer .footer_bottom {
 
 .toc-child {
     margin-left: 1em;
+    padding: 0;
 }
 
 a.toc-link:hover::after {
