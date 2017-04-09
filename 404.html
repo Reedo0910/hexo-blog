@@ -125,9 +125,8 @@
         var num = 6;
         var timer = setInterval(function () {
             document.getElementById("num").innerHTML = --num;
-            if (num == 0) {
+            if (num <= 0) {
                 location.href = "/";
-                clearInterval(timer);
             }
         }, 1000);
     }
