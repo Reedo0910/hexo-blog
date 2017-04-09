@@ -12,8 +12,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Velas Talk">
-
-    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/ico">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/ico">
 
     <style>
         * {
@@ -69,20 +68,20 @@
             -webkit-backdrop-filter: blur(5px);
         }
 
-        .b {
+        .text {
             width: 100%;
             text-align: center;
             margin-top: 150px;
             color: #fff;
         }
 
-        .b h1 {
+        .text h1 {
             font-size: 8em;
             font-weight: 500;
             margin-bottom: 30px;
         }
 
-        .b p {
+        .text p {
             margin-top: 15px;
             font-size: 1.2em;
             font-weight: lighter;
@@ -94,31 +93,19 @@
         }
 
         @media screen and (max-width:640px) {
-            .b h1 {
+            .text h1 {
                 font-size: 5em;
             }
 
-            .b p {
+            .text p {
                 font-size: 1em;
             }
         }
     </style>
-    <script type="text/javascript">
-        var num = 5;
 
-        function redirect() {
-            document.getElementById("num").innerHTML = num--;
-            if (num == 0) {
-                location.href = "/";
-            }
-        }
-        setInterval("redirect()", 1000);
-    </script>
-    <!-- hexo-inject:begin -->
-    <!-- hexo-inject:end -->
 </head>
 
-<body onload="redirect();">
+<body>
     <a class="logo" href="/">
         <p>Velas Talk</p>
     </a>
@@ -126,12 +113,22 @@
         <img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/background/background-min.jpg">
         <div class="mask"></div>
     </div>
-    <div class="b">
+    <div class="text">
         <h1>404</h1>
-        <p>Ops，暂时未能找到您查找的页面</p>
-        <p> 可能输入的网址错误或此页面不存在</p>
-        <p><span id="num"></span>秒后自动跳转到主页</p>
+        <p>Ops，你要找的页面不见了哦</p>
+        <p><span id="num"></span>秒后回到主页</p>
     </div>
 </body>
+<script type="text/javascript">
+    window.onload = function () {
+        var num = 6;
+        setInterval(function () {
+            document.getElementById("num").innerHTML = --num;
+            if (num == 0) {
+                location.href = "/";
+            }
+        }, 1000);
+    }
+</script>
 
 </html>
