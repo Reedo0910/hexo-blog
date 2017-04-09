@@ -124,9 +124,11 @@
     window.onload = function () {
         var num = 6;
         var timer = setInterval(function () {
-            document.getElementById("num").innerHTML = --num;
             if (num <= 0) {
+                document.getElementById("num").innerHTML = 0;
                 location.href = "/";
+            } else {
+                document.getElementById("num").innerHTML = --num;
             }
         }, 1000);
     }
