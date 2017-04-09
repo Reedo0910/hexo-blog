@@ -1,5 +1,5 @@
-layout: false 
-title: "404" 
+layout: false
+title: "404"
 ---
 <html>
 
@@ -10,8 +10,8 @@ title: "404"
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content="Velas Talk">
     <meta name="author" content="Zeee">
-    <meta name="description" content="Life is glamorous."/>
-    <meta name="keywords" content=""/>
+    <meta name="description" content="Life is glamorous." />
+    <meta name="keywords" content="" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Velas Talk">
@@ -127,10 +127,11 @@ title: "404"
     window.onload = function () {
         var num = 6;
         var timer = setInterval(function () {
-            document.getElementById("num").innerHTML = --num;
-            if (num == 0) {
+            if (num <= 0) {
+                document.getElementById("num").innerHTML = 0;
                 location.href = "/";
-                clearInterval(timer);
+            } else {
+                document.getElementById("num").innerHTML = --num;
             }
         }, 1000);
     }
