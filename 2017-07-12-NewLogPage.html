@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>新Velas Camp:第一次使用Vue.js | Velas Talk</title>
+  <title>折腾了一年，只为了像个正常人一样写一个日志 | Velas Talk</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -186,8 +186,8 @@
         <div class="row col-md-offset-2">
             <div class="col-md-8">
     			<span class="post-meta">
-      <time datetime="2016-11-20T09:59:33.000Z" itemprop="datePublished">
-          2016-11-20
+      <time datetime="2017-07-11T16:29:06.000Z" itemprop="datePublished">
+          2017-07-12
       </time>
     
     
@@ -196,36 +196,38 @@
     
     
 </span>
-                <h1>新Velas Camp:第一次使用Vue.js</h1>
+                <h1>折腾了一年，只为了像个正常人一样写一个日志</h1>
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
             <!-- Table of Contents -->
         
-      		<p><img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/VelasCamp.jpg" alt="新Velas Camp"></p>
-<p>本来在我在短期之内还是与大规模使用Vue.js无缘的，把<a href="http://www.velascamp.cn" target="_blank" rel="external">Velas Camp</a>设计翻新也只是因为之前的设计不太直观（而且流量损耗和加载开销都很大）。而且还干脆小小的尝试了一下Web App形态。</p>
-<a id="more"></a>
-<p>但是必须要指责一下苹果，一声不吭的就把Web App的启动屏幕api移除了！（据说是bug，但是至今也没恢复），结果白白设计了个启动屏幕，却毫无用武之地。但是想了想，即使没有这个api我也能弄启动屏幕呀（然后又要指责一下苹果，为啥Web App打开都会白屏一段时间，而且根本不会帮你缓存），但是为了不浪费非iPhone6/6s/7（不含plus）用户的流量，于是最后在衡量了开销之后决定，还是用Vue.js来解决一下节点处理问题。</p>
-<p>即使只是用了v-if/v-show和bind……</p>
-<p>最后弄好了是这个样子的。</p>
-<p><img src="http://o7a3i0m1t.bkt.clouddn.com/image/blog/startup.png" alt="startup screen"></p>
-<p>只在iPhone 6/6s/7(不含plus)将网页添加主屏幕之后可见。</p>
-<p>虽然感觉目前Web App不是SPA的话没什么用，因为打开其他页面也会跳转到浏览器打开的。但是不管怎么说，虽然很耗时，还是有点小成就感的。（还隐藏了一句Android 5+的标题颜色代码，但是没测试）</p>
+      		<p><img src="http://o7a3i0m1t.bkt.clouddn.com/blog/update.png" alt="log-update"></p>
+<p>Velas 2017 Summer Update （也就是Velas 3.0）很快就要到来啦，其实这几天Velas.xyz也在悄悄地发生着翻天覆地的改变。（这不是病句🙄）但是首先，有一个很重要的改变我不得不说一下。</p>
+<p>我终于可以像个正常人一样写日志啦！哈哈哈哈哈（虽然你们看到的最终成品来说是没啥变化）<br><a id="more"></a></p>
+<p><img src="http://o7a3i0m1t.bkt.clouddn.com/blog/log-update1.PNG" alt="log-update1"></p>
+<p>在Velas 2016（Velas 1.0）的时候，因为整个Velas都是基于纯HTML编写的，所以可以看到整个Log的编写过程都是浓浓的HTML味道。那时每次写日志都相当于写了个小网页……可以看到上面的注释，那个就是为了编写方便而存了了个小模板……😰难以想象那时的我整整写了四个月这样的Log</p>
+<p><img src="http://o7a3i0m1t.bkt.clouddn.com/blog/update3.PNG" alt="blog/update3.PNG"></p>
+<p>到了Velas 2017 Spring Update（Velas 2.0），由于引入了Vue，也终于能允许我从使用HTML编写日志转成用JSON编写了，瞬间从石器时代跳到了青铜时代😄不论是编写的效率还是简洁程度都上升了一大截。</p>
+<p>然而一切并没有看上去的那么美好……事实是我并不想在这种格式下写东西，因为这个简直就不符合正常人的书写习惯！😡（最初编写结构的时候，我也仅仅是为了方便Vue v-for的读取而这样设计的）</p>
+<p>单单是一个日期，我完全不能一眼看出这个日志是在哪一年哪一月哪一天写的，甚至还要一层一层去找年份和月份……更不用说那一层又一层的List……</p>
+<p>写的时候流的泪都是当年脑子进的水。</p>
+<p><img src="http://o7a3i0m1t.bkt.clouddn.com/blog/log-update2.PNG" alt="log-update2"></p>
+<p>而在Velas 2017 Summer Update（Velas 3.0）中，我仔细分析了Log的JSON结构以及使用Filter进行JSON过滤的可行性后，将JSON的结构从3层6属性精简为1层2属性，彻底把它变成了正常人的书写和阅读习惯✌终于可以像个正常人一样写日志啦~</p>
+<p>当然这个转变也归功于对Vue的渐渐熟悉，和我处女座锲而不舍的折腾精神啦。</p>
 <hr>
-<p>列一下meta代码（第6行为iOS开始屏幕设置，目前在iOS9+不可用）</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-capable"</span> <span class="attr">content</span>=<span class="string">"yes"</span> /&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-status-bar-style"</span> <span class="attr">content</span>=<span class="string">"black-translucent"</span> /&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"apple-mobile-web-app-title"</span> <span class="attr">content</span>=<span class="string">"Velas Camp"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"apple-touch-icon-precomposed"</span> <span class="attr">sizes</span>=<span class="string">"180x180"</span> <span class="attr">href</span>=<span class="string">"retinahd_icon.png"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">"apple-touch-startup-image.png"</span> <span class="attr">media</span>=<span class="string">"(device-width: 375px) and (device-height:667px)and (-webkit-device-pixel-ratio: 2)"</span> <span class="attr">rel</span>=<span class="string">"apple-touch-startup-image"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"theme-color"</span> <span class="attr">content</span>=<span class="string">"#3b4aff"</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>生命不息，折腾不止。折腾了那么久，其实最后也是为了以后能多写日志，多更新……</p>
+<p>日志越来越容易写了，但是反而写的越来越少了。</p>
+<p><del>这绝对不是因为懒</del></p>
+
             <div class="clearfix"></div>
             <hr class="nogutter">
         </div>
         <nav class="pagination" role="pagination">
     
-    <a class="pull-left" href="/2016-12-31-Bye2016,Hello2017.html" style="float: left;">
-        ← Bye 2016, Hello 2017
-    </a>
     
-    
-    <a class="pull-right" href="/2016-10-09-啊呀，好想剁手.html">
-        啊呀，好想剁手 →
+    <a class="pull-right" href="/2017-06-11-RevolutionOfVelasCamp.html">
+        Revolution of Velas Camp →
     </a>
     
 </nav>
