@@ -23,29 +23,11 @@ $(document).ready(function($) {
 			}
 		);
 
-		$("html").niceScroll({
-			smoothscroll: true, // scroll with ease movement
-			autohidemode: false,
-			zindex: "100", // change z-index for scrollbar div
-        	scrollspeed: 60, // scrolling speed
-        	mousescrollstep: 40,
-        	gesturezoom: false,
-        	horizrailenabled: false,
-        	cursorcolor: "#151515",
-	        boxzoom: false,
-	        cursorborder: "0 solid #202020",
-	        cursorborderradius: "5px",
-	        cursorwidth: 9,
-	        enablemousewheel: true,
-	        background: "rgba(255,255,255,0.7)",
-		});
-
 		// Page transitions
 		$(".animsition").animsition({
-
 			inClass               :   'fade-in',
 			outClass              :   'fade-out-down-sm',
-			inDuration            :    900,
+			inDuration            :    500,
 			outDuration           :    800,
 			linkElement           :   '.animsition-link',
 			//e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
