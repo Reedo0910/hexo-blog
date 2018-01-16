@@ -20,7 +20,8 @@ highlightjs: vs
 #   works_url: http://www.velascamp.cn/
 
 #duoshuo name
-duoshuo: velastalk
+duoshuo:
+# duoshuo: velastalk
 
 # Miscellaneous
 github: https://github.com/Reedo0910
