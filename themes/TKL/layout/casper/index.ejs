@@ -55,8 +55,8 @@
         </div>
         <% }); %>
         <nav class="pagination" role="pagination">
-          <% if (page.prev) { %><a class="pull-left" href="<%- url_for(page.prev_link) %>">← 较新的文章</a><% } %>
-          <% if (page.next) { %><a class="pull-right" href="<%- url_for(page.next_link) %>">较旧的文章 →</a><% } %>
+          <% if (page.prev) { %><a class="pull-left" href="<%- url_for(page.prev_link) %>">< 较新的文章</a><% } %>
+          <% if (page.next) { %><a class="pull-right" href="<%- url_for(page.next_link) %>">较旧的文章 ></a><% } %>
         </nav>
     </div>
 </section>
