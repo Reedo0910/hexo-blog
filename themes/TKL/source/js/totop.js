@@ -15,9 +15,11 @@
     function isElemShow() {
         var scrollTop = $(document).scrollTop();
         if (scrollTop > upperLimit) {
-            $(scrollElem).stop().animate({bottom:'50px'});
+            // $(scrollElem).stop().animate({bottom:'50px'});
+            $(scrollElem).css('bottom','50px');
         } else {
-            $(scrollElem).stop().animate({bottom:'-100px'});
+            // $(scrollElem).stop().animate({bottom:'-100px'});
+            $(scrollElem).css('bottom','-100px');            
         }
     }
     isElemShow();
