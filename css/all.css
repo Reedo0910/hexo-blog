@@ -3398,8 +3398,8 @@ footer .footer_bottom {
 .readMore a {
 	font-size: 12px;
 	color: gray!important;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
 	border: 1px solid gray;
