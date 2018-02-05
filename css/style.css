@@ -3096,7 +3096,7 @@ button.send{
 footer {
 	padding:5% 0 0;
 	background:#151515;
-	z-index: 9;
+	z-index: 101;
 	position: relative;
 }
 footer p.m_14 {
