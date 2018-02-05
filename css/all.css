@@ -213,7 +213,8 @@ h3 {
 	font-weight: 400;
 	line-height: 37px;
 	font-size: 20px;
-	margin-top: 0;
+    margin-top: -60px;
+    padding-top: 60px;
 }
 h4 {
 	font-style: normal;
@@ -3509,16 +3510,18 @@ a.toc-link:hover::after {
     position: fixed;
     right: 4%;
     cursor: pointer;
+    transition: all .5s;
+    z-index: 100;
 }
 
 .totop a {
-    display: block;
     background-color: #fff;
+    display: block;
     width: 35px;
     height: 35px;
     border-radius: 35px;
     text-align: center;
-    box-shadow: #888 0 1px 1px;
+    box-shadow: #888 0px 0px 3px;
 }
 
 .totop a:hover {
