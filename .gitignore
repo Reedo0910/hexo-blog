@@ -4,3 +4,4 @@ node_modules/
 scaffolds/
 *.bat
 db.json
+*.log

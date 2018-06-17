@@ -1474,3 +1474,55 @@
 {"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":3256,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2018-01-16T09:56:39.182Z","v":0}
 {"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":3256,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2018-01-16T09:56:39.197Z","v":0}
 {"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":3256,"level":20,"msg":"Rendering post: \u001b[35m2017-04-07-花火.html\u001b[39m","time":"2018-01-16T09:56:41.668Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Hexo version: \u001b[35m3.7.1\u001b[39m","time":"2018-06-17T07:36:10.946Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Working directory: \u001b[35mE:\\Workspace\\Blog\\\u001b[39m","time":"2018-06-17T07:36:10.949Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Config loaded: \u001b[35mE:\\Workspace\\Blog\\_config.yml\u001b[39m","time":"2018-06-17T07:36:11.330Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2018-06-17T07:36:11.468Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2018-06-17T07:36:11.481Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-fs\u001b[39m","time":"2018-06-17T07:36:11.499Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2018-06-17T07:36:11.525Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2018-06-17T07:36:11.541Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-restful\u001b[39m","time":"2018-06-17T07:36:11.558Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2018-06-17T07:36:11.571Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2018-06-17T07:36:11.589Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2018-06-17T07:36:11.615Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2018-06-17T07:36:11.617Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2018-06-17T07:36:11.861Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Script loaded: \u001b[35mscripts\\AddTail.js\u001b[39m","time":"2018-06-17T07:36:11.909Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":30,"msg":"Deleted database.","time":"2018-06-17T07:36:11.915Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":30,"msg":"Deleted public folder.","time":"2018-06-17T07:36:12.115Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":11308,"level":20,"msg":"Database saved","time":"2018-06-17T07:36:12.118Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Hexo version: \u001b[35m3.7.1\u001b[39m","time":"2018-06-17T07:42:28.519Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Working directory: \u001b[35mE:\\Workspace\\Blog\\\u001b[39m","time":"2018-06-17T07:42:28.521Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Config loaded: \u001b[35mE:\\Workspace\\Blog\\_config.yml\u001b[39m","time":"2018-06-17T07:42:28.796Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2018-06-17T07:42:28.894Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-fs\u001b[39m","time":"2018-06-17T07:42:28.901Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2018-06-17T07:42:28.910Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2018-06-17T07:42:28.918Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2018-06-17T07:42:28.926Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-restful\u001b[39m","time":"2018-06-17T07:42:28.935Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2018-06-17T07:42:28.948Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2018-06-17T07:42:28.957Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2018-06-17T07:42:28.978Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2018-06-17T07:42:28.983Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2018-06-17T07:42:29.153Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Script loaded: \u001b[35mscripts\\AddTail.js\u001b[39m","time":"2018-06-17T07:42:29.194Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":30,"msg":"Deleted database.","time":"2018-06-17T07:42:29.197Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":4360,"level":20,"msg":"Database saved","time":"2018-06-17T07:42:29.200Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Hexo version: \u001b[35m3.7.1\u001b[39m","time":"2018-06-17T07:56:03.507Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Working directory: \u001b[35mE:\\Workspace\\Blog\\\u001b[39m","time":"2018-06-17T07:56:03.509Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Config loaded: \u001b[35mE:\\Workspace\\Blog\\_config.yml\u001b[39m","time":"2018-06-17T07:56:03.815Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2018-06-17T07:56:03.937Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2018-06-17T07:56:03.946Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-fs\u001b[39m","time":"2018-06-17T07:56:03.952Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2018-06-17T07:56:03.960Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2018-06-17T07:56:03.969Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-restful\u001b[39m","time":"2018-06-17T07:56:03.978Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2018-06-17T07:56:03.990Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2018-06-17T07:56:04.003Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2018-06-17T07:56:04.017Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2018-06-17T07:56:04.020Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2018-06-17T07:56:04.231Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Script loaded: \u001b[35mscripts\\AddTail.js\u001b[39m","time":"2018-06-17T07:56:04.266Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":30,"msg":"Deleted database.","time":"2018-06-17T07:56:04.272Z","v":0}
+{"name":"hexo","hostname":"DESKTOP-N7KTAO7","pid":15948,"level":20,"msg":"Database saved","time":"2018-06-17T07:56:04.279Z","v":0}
