@@ -83,7 +83,7 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: ssh://git@github.com/Reedo0910/reedo0910.github.io
+  repo: git@github.com:Reedo0910/reedo0910.github.io.git
   branch: master
 
 # Restful
