@@ -5,3 +5,4 @@ scaffolds/
 *.bat
 db.json
 *.log
+.DS_Store
