@@ -7,7 +7,7 @@ tags:
 - 前端心得
 ---
 
-![新Velas Camp](http://o7a3i0m1t.bkt.clouddn.com/image/blog/VelasCamp.jpg)
+![新Velas Camp](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/Velas%20Camp.jpg)
 
 本来在我在短期之内还是与大规模使用Vue.js无缘的，把[Velas Camp](http://www.velascamp.cn)设计翻新也只是因为之前的设计不太直观（而且流量损耗和加载开销都很大）。而且还干脆小小的尝试了一下Web App形态。
 
@@ -19,7 +19,7 @@ tags:
 
 最后弄好了是这个样子的。
 
-![startup screen](http://o7a3i0m1t.bkt.clouddn.com/image/blog/startup.png)
+![startup screen](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/startup.png)
 
 只在iPhone 6/6s/7(不含plus)将网页添加主屏幕之后可见。
 

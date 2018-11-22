@@ -13,7 +13,7 @@ copyright: true
 
 Talk使用的是CC许可中最为严格的CC BY-NC-ND 4.0，即署名-非商业性使用-禁止演绎：
 
-![by-nc-nd](http://o7a3i0m1t.bkt.clouddn.com/image/blog/copyrightimages.png)
+![by-nc-nd](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/copyright.png)
 
 - **署名** — 您必须给出[合适的姓名或名称](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh#)，提供许可协议链接，同时[表明如果有修改](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh#)。您可以合理的方式这样做，但是部分以任何方式暗示许可人同意您或您的使用。
 - **非商业性使用** — 您不得将本作品用于[商业目的](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh#)。

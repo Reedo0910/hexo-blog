@@ -14,17 +14,17 @@ tags:
 
 **在Markdown上看的代码是这样的：**
 
- ![markdown](http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss1.PNG)
+ ![markdown](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/ss1.PNG)
 
 还是挺直观的吧……
 
 **变成HTML之后是这样的：**
 
- ![html](http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss2.PNG)
+ ![html](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/ss2.PNG)
 
 ……如果保留了CSS，你看到的将会是这样的：
 
- ![CSS](http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss3.PNG)
+ ![CSS](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/ss3.PNG)
 
 注意左边的行号……
 
@@ -34,4 +34,4 @@ tags:
 
 所以说即使在HTML繁荣发展的今天，Markdown的存在还是合理的……
 
-*另：Typora也是个好东西* ![爱心](http://o7a3i0m1t.bkt.clouddn.com/image/emo/aixin.png)
+*另：Typora也是个好东西* ![爱心](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/emotions/aixin.png)

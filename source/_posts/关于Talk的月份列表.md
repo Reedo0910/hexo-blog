@@ -14,13 +14,13 @@ tags:
 
 其实在最初设计出来的时候，月份列表是长这样的
 
-![talk月份列表设计初稿](http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss12.png)
+![talk月份列表设计初稿](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/ss12.png)
 
 不能说不美观，但是当多看了几遍之后就会觉得那个灰色的条条横在中间有点影响看日志的食欲，而且在有一些地方也不符合这个网站的风格。冥想了一下之后，断然决定让之前那个被我吐槽的filter: blur回归，于是就有了今天这个样子
 
 <!--more-->
 
-![talk月份列表设计第二稿](http://o7a3i0m1t.bkt.clouddn.com/image/blog/ss13.png)
+![talk月份列表设计第二稿](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/ss13.png)
 
 虽然感觉还有进步空间，但是能做到这样还是挺有成就感的。
 
