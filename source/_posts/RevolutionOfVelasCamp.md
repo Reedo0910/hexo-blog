@@ -14,7 +14,7 @@ tags:
 - 增加了自适应网站标识
 - 部分外观微调
 
-![VelasCamp 2.1](http://o7a3i0m1t.bkt.clouddn.com/image/blog/revolutionvelascamp4.png)
+![VelasCamp 2.1](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/loading/no-image.jpg)
 
 <!--more-->
 
@@ -24,7 +24,7 @@ tags:
 
 卡片的分类依靠于Vue.js自动完成，并且标题旁的卡片计数完全是实时且动态的。
 
-![category](http://o7a3i0m1t.bkt.clouddn.com/image/blog/revolutionvelascamp1.png)
+![category](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/loading/no-image.jpg)
 
 -
 
@@ -34,7 +34,7 @@ tags:
 
 得益于Vue.js高效的数据绑定支持，如今通过在新增的搜索框内输入文字，网页内容将对输入作出迅速响应，并及时将你想要的内容展示到你面前。而且你会发现，计数将依照搜索结果中卡片的个数实时发生变化。
 
-![search](http://o7a3i0m1t.bkt.clouddn.com/image/blog/revolutionvelascampGIF.gif)
+![search](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/loading/no-image.jpg)
 
 -
 
@@ -44,7 +44,7 @@ tags:
 
 你会发现在新Velas Camp中对有采用响应式设计（Responsive Web Design）的网页进行了标识。如果你在网页卡片的标题旁发现了该标识，则意味着该网站在任何屏幕尺寸的移动端与桌面端都能正确良好的显示。（Velas Camp本身已采用了响应式设计）
 
-![Responsive Deign](http://o7a3i0m1t.bkt.clouddn.com/image/blog/revolutionvelascamp3.png)
+![Responsive Deign](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/loading/no-image.jpg)
 
 此次升级还对一些界面元素进行了微调，并新增了两名新成员，这些就靠大家来发现吧。
 

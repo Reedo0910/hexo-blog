@@ -10,7 +10,7 @@ copyright: true
 
 又有好长一段时间没有更博了，在熬过了课设+托福月之后，终于迎来了一个我期盼很久的大会——ICACHI (International *Chinese* Association of Computer Human Interaction) 2017。
 
-![ICACHI2017](http://o7a3i0m1t.bkt.clouddn.com/image/blog/ICACHIchi2017_02.png)
+![ICACHI2017](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/icachi2017.jpg)
 
 <!--more-->
 

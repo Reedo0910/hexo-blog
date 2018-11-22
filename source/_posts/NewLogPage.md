@@ -7,20 +7,20 @@ tags:
 - 前端心得
 ---
 
-![log-update](http://o7a3i0m1t.bkt.clouddn.com/blog/update.png)
+![log-update](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/loading/no-image.jpg)
 
 Velas 2017 Summer Update （也就是Velas 3.0）很快就要到来啦，其实这几天Velas.xyz也在悄悄地发生着翻天覆地的改变。（这不是病句🙄）但是首先，有一个很重要的改变我不得不说一下。
 
 我终于可以像个正常人一样写日志（即 [Velas - 日志](http://www.velas.xyz/log)）啦！哈哈哈哈哈（虽然你们看到的最终成品来说是没啥变化）
 <!--more-->
 
-![log-update1](http://o7a3i0m1t.bkt.clouddn.com/blog/log-update1.PNG)
+![log-update1](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/loading/no-image.jpg)
 
 在Velas 2016（Velas 1.0）的时候，因为整个Velas都是基于纯HTML编写的，所以可以看到整个Log的编写过程都是浓浓的HTML味道。那时每次写日志都相当于写了个小网页……可以看到上面的注释，那个就是为了编写方便而存了了个小模板……😰难以想象那时的我整整写了四个月这样的日志
 
 
 
-![blog/update3.PNG](http://o7a3i0m1t.bkt.clouddn.com/blog/update3.PNG)
+![blog/update3.PNG](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/loading/no-image.jpg)
 
 到了Velas 2017 Spring Update（Velas 2.0），由于引入了Vue，也终于能允许我从使用HTML编写日志转成用JSON编写了，瞬间从石器时代跳到了青铜时代😄不论是编写的效率还是简洁程度都上升了一大截。
 
@@ -32,7 +32,7 @@ Velas 2017 Summer Update （也就是Velas 3.0）很快就要到来啦，其实�
 
 
 
-![log-update2](http://o7a3i0m1t.bkt.clouddn.com/blog/log-update2.PNG)
+![log-update2](https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/loading/no-image.jpg)
 
 而在Velas 2017 Summer Update（Velas 3.0）中，我仔细分析了Log的JSON结构以及使用Filter进行JSON过滤的可行性后，将JSON的结构从3层6属性精简为1层2属性，彻底把它变成了正常人的书写和阅读习惯✌终于可以像个正常人一样写日志啦~
 
