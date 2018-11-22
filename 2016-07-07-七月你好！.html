@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>奇怪的移动端 | Velas Talk</title>
+  <title>七月你好！ | Velas Talk</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -194,54 +194,50 @@
         <div class="row col-md-offset-2">
             <div class="col-md-8">
     			<span class="post-meta">
-      <time datetime="2016-05-26T04:00:00.000Z" itemprop="datePublished">
-          2016-05-26
+      <time datetime="2016-07-07T16:00:00.000Z" itemprop="datePublished">
+          2016-07-08
       </time>
     
     
     | 
     <a href="/tags/前端心得/">前端心得</a>,
     
-    <a href="/tags/移动端适配/">移动端适配</a>
+    <a href="/tags/杂感/">杂感</a>
     
     
 </span>
-                <h1>奇怪的移动端</h1>
+                <h1>七月你好！</h1>
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
             <!-- Table of Contents -->
         
-      		<p>今天做了几件奇奇怪怪的事，其实不过是上课的时候开的脑洞而已——想把首页的背景固定，然后把filter: blur引到首页文本背景做个毛玻璃效果，这样就能有ios 7那种动态高斯模糊的效果了……想想都有点美 <img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/emotions/zilian.png" alt="自恋"></p>
-<p>然而……并没有做出来 </p>
+      		<p>代嘎猴，我是你们最亲爱的Zeeeㄟ(◑皿◐ )ㄏ 嘎吒！！</p>
+<p>有没有很想我呢！</p>
+<p>我又滚回来啦啦啦啦啦啦啦啦・::・・::・ﾟ･:.｡..｡.:･ﾟ:･ﾟﾟ+｡ ＼（´･∀･｀）／｡+ﾟﾟ･:.｡..｡.:･ﾟﾟ･:.｡..｡.:･ﾟ・::・・:*:・噗噗噗噗噗噗噗快把这个傻逼拖走ヽ(゜▽゜　)－C(/;◇;)/ </p>
 <a id="more"></a>
-<p>发现filter: blur原理是将整个div，包括里面的文字内容都给模糊了，而且并不能控制只是模糊背景图片，<strong>只能在背景的上面加一个div块，将背景继承给他再进行模糊</strong>……更不能忍的就是……模糊了之后还将边缘也一起模糊了</p>
-<p>大概效果是这样：</p>
-<p><img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/ss4.PNG" alt="filter:blur失败"></p>
-<p><strong>EXCUSE ME????</strong></p>
-<p>算了，既然弄不了毛玻璃的话弄个透明也好，毕竟背景固定了之后文本背景加透明也挺萌的（好吧自我安慰）。</p>
-<p>当我以为“今天的工作也大概到这里了吧”，准备开开心心玩儿去的时候，我无意中用手机打开……画风是这样的……</p>
-<p> <img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/ss5.png" alt="移动端不适配"></p>
-<p><strong>嗯？</strong></p>
-<p>查了一下才知道<strong>移动端对background-attachment支持并不好</strong>，在size那里调了半天发现怎么都不太对。好咯，视觉效果优先，那只能移除咯……但是又舍不得pc那个视觉冲击力……然后狠下心，去研究了一下怎么用JS来针对移动端选择CSS。最后通过另外写一套mobile的CSS（顺便调了一下排版），再通过JS判断替换CSS文件，终于解决了……</p>
-<p> <img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/ss6.png" alt="适配成功"></p>
-<p>还是很大快人心的……</p>
-<p>但是如果以后要专门针对移动端适配的话……那不是每个页面都要写两套CSS？话说木有iPad的话那怎么做iPad上的测试？<img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/emotions/han.png" alt="汗"></p>
-<p><em>另：明天开始动工收起按钮和留言板</em></p>
-<p><em>好像图片库好久没理了吧</em></p>
+<p>咳嗯……不好意思，因为太兴奋了刚刚有点失态~ o(<em>￣▽￣</em>)o</p>
+<p>说是因为考试月闭关了一个月，其实中间也有断断续续上来更新了几次，<del>大家看看更新日志就知道我多勤奋啦啊哈哈哈。</del></p>
+<p>而且这几次的更新也解决了几个从建站就一直有的顽固BUG：包括上一篇日志提到的在安卓浏览器上浏览时那个诡异的字体大小，终于定位到其实是Webkit的Font Boosting特性搞的鬼；还有实现了月份列表在所有新浏览器上都有毛玻璃效果。为自己点个赞，耶φ(゜▽゜*)♪</p>
+<p>接下来这个月如无意外的话将继续学JS、jQuery、Ajax点点点点点，毕竟放暑假了，又有大把时间啦。网页设计的话要先告一段落啦，但是还是那句：每一天，在你看到或者看不到的地方，Velas都会变得比昨天更成熟一些，更精致一些。可能我正在你看不到的地方默默加油。</p>
+<p>我们一起加油吧！</p>
+<p><del><em>另：以后标题带这只小羊标记<img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/emotions/sheep.png" alt="Personal">的都是一些偏私人风格的博客，纯技术交流的话不喜勿点。</em></del></p>
+<blockquote>
+<p>提示：由于博客迁移，小羊功能可移步到<a href="http://2016.velas.xyz/talk.html" target="_blank" rel="noopener">Velas’s Talk,每日碎碎念</a>查看</p>
+</blockquote>
 
             <div class="clearfix"></div>
             <hr class="nogutter">
         </div>
         <nav class="pagination" role="pagination">
     
-    <a class="pull-left" href="/2016-05-29-WebGL!-WebGL! .html" style="float: left;">
-        < WebGL! WebGL!
+    <a class="pull-left" href="/2016-08-04-这个月干了啥？.html" style="float: left;">
+        < 这个月干了啥？
     </a>
     
     
-    <a class="pull-right" href="/2016-05-25-Markdown是个好东西！.html">
-        Markdown是个好东西！ >
+    <a class="pull-right" href="/2016-06-06-六月，面倒くさい.html">
+        六月，面倒くさい >
     </a>
     
 </nav>

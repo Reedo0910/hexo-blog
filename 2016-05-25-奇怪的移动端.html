@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>折腾了一年，只为了像个正常人一样写一个日志 | Velas Talk</title>
+  <title>奇怪的移动端 | Velas Talk</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -194,48 +194,54 @@
         <div class="row col-md-offset-2">
             <div class="col-md-8">
     			<span class="post-meta">
-      <time datetime="2017-07-12T04:29:06.000Z" itemprop="datePublished">
-          2017-07-12
+      <time datetime="2016-05-25T16:00:00.000Z" itemprop="datePublished">
+          2016-05-26
       </time>
     
     
     | 
-    <a href="/tags/前端心得/">前端心得</a>
+    <a href="/tags/前端心得/">前端心得</a>,
+    
+    <a href="/tags/移动端适配/">移动端适配</a>
     
     
 </span>
-                <h1>折腾了一年，只为了像个正常人一样写一个日志</h1>
+                <h1>奇怪的移动端</h1>
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
             <!-- Table of Contents -->
         
-      		<p><img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/loading/no-image.jpg" alt="log-update"></p>
-<p>Velas 2017 Summer Update （也就是Velas 3.0）很快就要到来啦，其实这几天Velas.xyz也在悄悄地发生着翻天覆地的改变。（这不是病句🙄）但是首先，有一个很重要的改变我不得不说一下。</p>
-<p>我终于可以像个正常人一样写日志（即 <a href="http://www.velas.xyz/log" target="_blank" rel="noopener">Velas - 日志</a>）啦！哈哈哈哈哈（虽然你们看到的最终成品来说是没啥变化）<br><a id="more"></a></p>
-<p><img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/loading/no-image.jpg" alt="log-update1"></p>
-<p>在Velas 2016（Velas 1.0）的时候，因为整个Velas都是基于纯HTML编写的，所以可以看到整个Log的编写过程都是浓浓的HTML味道。那时每次写日志都相当于写了个小网页……可以看到上面的注释，那个就是为了编写方便而存了了个小模板……😰难以想象那时的我整整写了四个月这样的日志</p>
-<p><img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/loading/no-image.jpg" alt="blog/update3.PNG"></p>
-<p>到了Velas 2017 Spring Update（Velas 2.0），由于引入了Vue，也终于能允许我从使用HTML编写日志转成用JSON编写了，瞬间从石器时代跳到了青铜时代😄不论是编写的效率还是简洁程度都上升了一大截。</p>
-<p>然而一切并没有看上去的那么美好……事实是我并不想在这种格式下写东西，因为这个简直就不符合正常人的书写习惯！😡（最初编写结构的时候，我也仅仅是为了方便Vue v-for的读取而这样设计的）</p>
-<p>单单是一个日期，我完全不能一眼看出这个日志是在哪一年哪一月哪一天写的，甚至还要一层一层去找年份和月份……更不用说那一层又一层的List……</p>
-<p>写的时候流的泪都是当年脑子进的水。</p>
-<p><img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/loading/no-image.jpg" alt="log-update2"></p>
-<p>而在Velas 2017 Summer Update（Velas 3.0）中，我仔细分析了Log的JSON结构以及使用Filter进行JSON过滤的可行性后，将JSON的结构从3层6属性精简为1层2属性，彻底把它变成了正常人的书写和阅读习惯✌终于可以像个正常人一样写日志啦~</p>
-<p>当然这个转变也归功于对Vue的渐渐熟悉，和我处女座锲而不舍的折腾精神啦。</p>
-<hr>
-<p>生命不息，折腾不止。折腾了那么久，其实最后也是为了以后能多写日志，多更新……</p>
-<p>日志越来越容易写了，但是反而写的越来越少了。</p>
-<p><del>这绝对不是因为懒</del></p>
+      		<p>今天做了几件奇奇怪怪的事，其实不过是上课的时候开的脑洞而已——想把首页的背景固定，然后把filter: blur引到首页文本背景做个毛玻璃效果，这样就能有ios 7那种动态高斯模糊的效果了……想想都有点美 <img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/emotions/zilian.png" alt="自恋"></p>
+<p>然而……并没有做出来 </p>
+<a id="more"></a>
+<p>发现filter: blur原理是将整个div，包括里面的文字内容都给模糊了，而且并不能控制只是模糊背景图片，<strong>只能在背景的上面加一个div块，将背景继承给他再进行模糊</strong>……更不能忍的就是……模糊了之后还将边缘也一起模糊了</p>
+<p>大概效果是这样：</p>
+<p><img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/ss4.PNG" alt="filter:blur失败"></p>
+<p><strong>EXCUSE ME????</strong></p>
+<p>算了，既然弄不了毛玻璃的话弄个透明也好，毕竟背景固定了之后文本背景加透明也挺萌的（好吧自我安慰）。</p>
+<p>当我以为“今天的工作也大概到这里了吧”，准备开开心心玩儿去的时候，我无意中用手机打开……画风是这样的……</p>
+<p> <img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/ss5.png" alt="移动端不适配"></p>
+<p><strong>嗯？</strong></p>
+<p>查了一下才知道<strong>移动端对background-attachment支持并不好</strong>，在size那里调了半天发现怎么都不太对。好咯，视觉效果优先，那只能移除咯……但是又舍不得pc那个视觉冲击力……然后狠下心，去研究了一下怎么用JS来针对移动端选择CSS。最后通过另外写一套mobile的CSS（顺便调了一下排版），再通过JS判断替换CSS文件，终于解决了……</p>
+<p> <img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/images/pre/ss6.png" alt="适配成功"></p>
+<p>还是很大快人心的……</p>
+<p>但是如果以后要专门针对移动端适配的话……那不是每个页面都要写两套CSS？话说木有iPad的话那怎么做iPad上的测试？<img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/emotions/han.png" alt="汗"></p>
+<p><em>另：明天开始动工收起按钮和留言板</em></p>
+<p><em>好像图片库好久没理了吧</em></p>
 
             <div class="clearfix"></div>
             <hr class="nogutter">
         </div>
         <nav class="pagination" role="pagination">
     
+    <a class="pull-left" href="/2016-05-28-WebGL!-WebGL! .html" style="float: left;">
+        < WebGL! WebGL!
+    </a>
     
-    <a class="pull-right" href="/2017-06-11-RevolutionOfVelasCamp.html">
-        Revolution of Velas Camp >
+    
+    <a class="pull-right" href="/2016-05-24-Markdown是个好东西！.html">
+        Markdown是个好东西！ >
     </a>
     
 </nav>
