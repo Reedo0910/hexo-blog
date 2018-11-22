@@ -94,6 +94,8 @@
     var root_s = document.getElementsByTagName('script')[0];
     root_s.parentNode.insertBefore(cnzz_s_tag, root_s);
   </script> -->
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 </head>
 
 <!--
@@ -252,6 +254,17 @@
 </nav>
 
         <div class="duoshuo"></div>
+        <div class="valine">
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'BOGU0LmK7Y9vx8NJyGmAbr3C-gzGzoHsz',
+            appKey: '1MJxNelURm3jcmFIN0kcJneT'
+        })
+    </script>
+
+</div>
     </div>
     <div id="totop" class="totop">
         <a title="返回顶部"><img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/icons/up.png"></a>
