@@ -15,12 +15,19 @@
                 <%- toc(post.content, {list_number: false}) %>
             </div>
         <% } %>
-      		<%- post.content %>
+            <%- post.content %>
+            <span id="/<%- post.path %>" class="leancloud-visitors" data-flag-title="<%- post.title %>">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
             <div class="clearfix"></div>
             <hr class="nogutter">
         </div>
         <%- partial('post/navigation') %>
         <div class="duoshuo"><%- partial('post/duoshuo') %></div>
+        <div class="col-md-8 col-md-offset-2">
+            <div class="valine"><%- partial('post/valine') %></div>
+        </div>
     </div>
     <div id="totop" class="totop">
         <a title="返回顶部"><img src="https://talk-1252562537.cos.ap-hongkong.myqcloud.com/icons/up.png" /></a>

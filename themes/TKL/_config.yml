@@ -23,6 +23,9 @@ highlightjs: vs
 duoshuo:
 # duoshuo: velastalk
 
+#valine
+valine: true
+
 # Miscellaneous
 github: https://github.com/Reedo0910
 weibo: http://weibo.com/reedo
