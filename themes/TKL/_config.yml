@@ -24,7 +24,7 @@ duoshuo:
 # duoshuo: velastalk
 
 #valine
-valine: true
+valine: false
 
 # Miscellaneous
 github: https://github.com/Reedo0910
